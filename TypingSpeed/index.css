@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@600;700;900&family=Open+Sans:wght@400;500;600&family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comme', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(106, 64, 145);
+}
+
+.container{
+    background-color: #F0DB4F;
+    border-radius: 10px;
+    padding: 10px;
+    width: 700px;
+    max-width: 90%;
+}
+
+.quote-display{
+    color: black; /* Ensure text color is visible */
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 4 00;
+    margin-left: 7px;
+    margin-right: 10px;
+}
+
+.timer{
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: #F0DB4F;
+    font-weight: bolder;
+}
+
+.quote-input{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 100%;
+    height: 12rem;
+    resize: none;
+    border: 2px solid #b79f04;
+    outline: none;
+}
+
+.quote-input:focus{
+    border: 2px solid black;
+}
+
+.correct{
+    color: rgb(6, 190, 6);
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
+
+.quote-display span{
+    user-select: none;
+}
+
+.wpm{
+    color: #f7d708;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 3%;
+    text-shadow: 2px 2px 0 black;
+}
